@@ -5,9 +5,9 @@ order: 36
 
 # The back office
 
-The back office screens are loaded when omnibase/admin is installed (its
+The back office screens are loaded when omnipack/admin is installed (its
 `Base\Admin\Controller\AbstractCrudController` exists). They carry
-omnibase/admin's `#[OpenToAdmins]`, so the site's administrator (`ROLE_ADMIN`)
+omnipack/admin's `#[OpenToAdmins]`, so the site's administrator (`ROLE_ADMIN`)
 writes in them, not the super-admin only; any other user is refused.
 
 ## Offerings

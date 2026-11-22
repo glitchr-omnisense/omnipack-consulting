@@ -1,17 +1,28 @@
 {
-    "name": "omnibase/consulting",
+    "name": "omnipack/consulting",
     "description": "Consulting for omnibase: an independent professional's services (Offering) presented on their site, the quote request on omnibase's contact model with its notice, kept and answered from the back office; the rules an offering keeps that a site or a profession adds; the hook for hours paid through omnibase/marketplace's Credit.",
     "type": "symfony-bundle",
     "license": "MIT",
-    "keywords": ["omnibase", "consulting", "services", "quote", "freelance"],
-    "authors": [{"name": "Marco Meyer", "email": "marco.meyer@glitchr.io"}],
+    "keywords": [
+        "omnibase",
+        "consulting",
+        "services",
+        "quote",
+        "freelance"
+    ],
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "doctrine/orm": "^2.15|^3.0",
         "doctrine/doctrine-bundle": "^2.13|^3.0",
         "omnibridge/symfony": "^3.0",
         "omnisense/omnibase": "^7.0",
-        "omnibase/admin": "^2.0",
+        "omnipack/admin": "^2.0",
         "symfony/config": "^6.4|^7.0|^8.0",
         "symfony/dependency-injection": "^6.4|^7.0|^8.0",
         "symfony/form": "^6.4|^7.0|^8.0",
@@ -23,14 +34,21 @@
     "require-dev": {
         "phpunit/phpunit": "^10.5|^11.0|^12.0"
     },
+    "replace": {
+        "omnibase/consulting": "self.version"
+    },
     "suggest": {
-        "omnibase/marketplace": "Hours paid in advance: an offering sold as Credit (when the marketplace has it)"
+        "omnipack/marketplace": "Hours paid in advance: an offering sold as Credit (when the marketplace has it)"
     },
     "autoload": {
-        "psr-4": {"Base\\Consulting\\": "./src"}
+        "psr-4": {
+            "Base\\Consulting\\": "./src"
+        }
     },
     "autoload-dev": {
-        "psr-4": {"Base\\Consulting\\Tests\\": "./tests"}
+        "psr-4": {
+            "Base\\Consulting\\Tests\\": "./tests"
+        }
     },
     "extra": {
         "branch-alias": {

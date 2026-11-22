@@ -6,7 +6,7 @@ order: 34
 # Hours paid in advance
 
 The plan of the omnibase family gives hours paid in advance to
-omnibase/marketplace's generic `Credit` (with `Entitlement`, `Usage`),
+omnipack/marketplace's generic `Credit` (with `Entitlement`, `Usage`),
 written with the events platform. This bundle writes no hours entity of its
 own and copies nothing of forge's `HourCredit`.
 

@@ -16,8 +16,8 @@ consulting:
     recipient:            '%env(MAILER_CONTACT)%'
     # Who provides the services, for schema.org (a name); null: the site's title.
     provider:             null
-    regulated_activity_guard: false # Deprecated (Since omnibase/consulting 1.1: The "regulated_activity_guard" option is gone: a jurist's guard on legal advice is omnibase/legal's (legal.profession: jurist). Remove it.)
-    authorized_status:    null # Deprecated (Since omnibase/consulting 1.1: The "authorized_status" option is gone: it is legal.jurist.authorized_status in omnibase/legal. Remove it.)
+    regulated_activity_guard: false # Deprecated (Since omnipack/consulting 1.1: The "regulated_activity_guard" option is gone: a jurist's guard on legal advice is omnipack/legal's (legal.profession: jurist). Remove it.)
+    authorized_status:    null # Deprecated (Since omnipack/consulting 1.1: The "authorized_status" option is gone: it is legal.jurist.authorized_status in omnipack/legal. Remove it.)
     # How long a quote request is kept, as the form's notice says.
     retention_months:     36
 ```
@@ -32,10 +32,10 @@ consulting:
 
 The two deprecated keys are refused when set: `regulated_activity_guard: true`
 fails with "consulting.regulated_activity_guard: the guard on what the law of
-31 December 1971 reserves moved to omnibase/legal - install it with
+31 December 1971 reserves moved to omnipack/legal - install it with
 legal.profession: jurist, and remove this option.", and any
 `authorized_status` fails with "consulting.authorized_status moved to
-omnibase/legal: legal.jurist.authorized_status.".
+omnipack/legal: legal.jurist.authorized_status.".
 
 ## Parameters
 

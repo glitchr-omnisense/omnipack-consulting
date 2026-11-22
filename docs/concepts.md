@@ -23,7 +23,7 @@ An `Offering` is one service as the site prints it. Its title gives its slug
 `setActivity()` takes a case or its value; an unknown value becomes `OTHER`.
 The price is a string printed as written ("On quote", "450 € the day"), not an
 amount: the bundle sells nothing. `hours` is the size of a package of hours,
-read only when omnibase/marketplace can sell one.
+read only when omnipack/marketplace can sell one.
 
 The description is the back office's editor output or plain text:
 `isHtml()` says which (it looks for `p`, `ul`, `ol`, `h1`-`h6`, `div`, `br`,

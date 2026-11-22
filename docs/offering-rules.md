@@ -27,7 +27,7 @@ final class NoPricesRule implements OfferingRuleInterface
 The guard on what French law no. 71-1130 of 31 December 1971 reserves to the
 regulated professions (personalised legal advice, deeds drafted for others)
 was this bundle's `RegulatedActivityGuard` until 2026-10-09. It is now the
-jurist's profile of [omnibase/legal](https://github.com/glitchr-omnisense/omnibase-legal):
+jurist's profile of [omnipack/legal](https://github.com/glitchr-omnisense/omnipack-legal):
 
 ```yaml
 # config/packages/legal.yaml
@@ -37,7 +37,7 @@ legal:
         authorized_status: ~     # teacher (art. 57), regulated_profession (art. 59)
 ```
 
-With omnibase/consulting installed, its rule refuses an offering whose title,
+With omnipack/consulting installed, its rule refuses an offering whose title,
 summary or presentation announces a legal consultation or the drafting of
 deeds. `consulting.regulated_activity_guard` and `consulting.authorized_status`
 are read for one version: off, they change nothing (and say they are

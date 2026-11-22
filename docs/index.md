@@ -1,10 +1,10 @@
-# omnibase/consulting
+# omnipack/consulting
 
-omnibase/consulting is the services page of a trainer, a speaker, a consultant
+omnipack/consulting is the services page of a trainer, a speaker, a consultant
 or a writer: what is offered, a page per service, and a quote request that is
 kept for the back office and sent to the site's address. It is a Symfony bundle
 of the omnibase family (namespace `Base\Consulting\`), built on
-omnisense/omnibase and omnibase/admin.
+omnisense/omnibase and omnipack/admin.
 
 ## What it adds
 
@@ -32,9 +32,9 @@ omnisense/omnibase and omnibase/admin.
 
 ## What it leaves to others
 
-Hours paid in advance belong to omnibase/marketplace's generic `Credit`: until
+Hours paid in advance belong to omnipack/marketplace's generic `Credit`: until
 that class exists, no offering is sold by the hour ([Hours paid in
-advance](credits.md)). A jurist's guard on legal advice is omnibase/legal's
+advance](credits.md)). A jurist's guard on legal advice is omnipack/legal's
 (`legal.profession: jurist`); the two former options that held it here are
 deprecated and refused when set ([Configuration reference](configuration.md)).
 

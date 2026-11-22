@@ -50,10 +50,10 @@ that promise.
 
 The two screens (`OfferingCrudController`, `QuoteRequestCrudController`) are
 the site's administrator's (`ROLE_ADMIN`: the professional whose site it
-is), not the super-admin's only: they carry omnibase/admin's
+is), not the super-admin's only: they carry omnipack/admin's
 `#[OpenToAdmins]` - creating, editing and deleting a service; annotating,
 deleting a quote request and its two buttons, `answered` and `archive`. The
-attribute is omnibase/admin's from 7474f85.
+attribute is omnipack/admin's from 7474f85.
 
 ## The pages
 

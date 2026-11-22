@@ -8,12 +8,12 @@ request on omnibase's contact form and model (`QuoteRequest`, kept and
 answered in the back office, its notice under the form), and the rules an
 offering keeps that the site or its profession adds (`OfferingRuleInterface`;
 a jurist's guard on what the law reserves to lawyers and notaries is
-[omnibase/legal](https://github.com/glitchr-omnisense/omnibase-legal)'s). Hours paid in advance
-will be [omnibase/marketplace](https://github.com/glitchr-omnisense/omnibase-marketplace)
+[omnipack/legal](https://github.com/glitchr-omnisense/omnipack-legal)'s). Hours paid in advance
+will be [omnipack/marketplace](https://github.com/glitchr-omnisense/omnipack-marketplace)
 `Credit`s: the hook is there (`Service\CreditBridge`), nothing more.
 
 ```bash
-composer require omnibase/consulting
+composer require omnipack/consulting
 ```
 
 Under Symfony it runs on the core's Symfony host: Composer brings `omnisense/omnibase` 7.0 and
